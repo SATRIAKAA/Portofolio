@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-labelledby="title description">
+  <title id="title">Coffee cup and café counter illustration</title><desc id="description">A minimal blue-toned illustration of a takeaway coffee cup on a counter.</desc>
+  <rect width="480" height="360" rx="24" fill="#191c24"/><circle cx="371" cy="83" r="49" fill="#222733"/><circle cx="96" cy="116" r="25" fill="#222733"/>
+  <path d="M65 252h350v18H65z" fill="#303848"/><path d="M103 270h274l19 61H84z" fill="#222733"/>
+  <path d="M170 112h123l-12 118c-2 17-17 30-34 30h-31c-17 0-32-13-34-30z" fill="#222733" stroke="#3b82f6" stroke-width="5"/>
+  <path d="M291 139h29c22 0 36 17 31 39-4 18-18 29-40 29h-24" fill="none" stroke="#3b82f6" stroke-linecap="round" stroke-width="5"/>
+  <path d="M162 112h139v22H162z" fill="#3b82f6"/><path d="M218 83c-12-17 10-24 0-41M248 83c-12-17 10-24 0-41" fill="none" stroke="#60a5fa" stroke-linecap="round" stroke-width="5"/>
+  <path d="M207 177h49" stroke="#3b4658" stroke-linecap="round" stroke-width="9"/><circle cx="232" cy="199" r="8" fill="#60a5fa"/>
+</svg>
