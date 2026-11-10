@@ -680,17 +680,24 @@ h3 {
 }
 
 .project-card {
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
 }
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+}
 .project-banner {
-  min-height: 250px;
+  min-height: 165px;
   overflow: hidden;
   background: linear-gradient(120deg, #1d355b, #25375c 52%, #332e5d);
 }
 .project-banner-image {
   display: block;
   width: 100%;
-  height: clamp(205px, 30vw, 360px);
+  height: 165px;
   object-fit: cover;
 }
 .project-visual {
@@ -753,23 +760,27 @@ h3 {
   font-size: 0.72rem;
 }
 .project-body {
-  padding: 38px 42px 42px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 24px;
 }
 .project-body h2 {
-  margin-bottom: 13px;
+  margin-bottom: 11px;
+  font-size: clamp(1.35rem, 2vw, 1.75rem);
 }
 .project-description {
-  max-width: 840px;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   color: var(--color-text);
+  font-size: 0.92rem;
 }
 .project-tags {
-  margin-bottom: 28px;
+  margin-bottom: 20px;
 }
 .metrics-block {
   border: 1px solid var(--color-border);
   border-radius: 13px;
-  padding: 23px;
+  padding: 16px;
   background: #fbfdff;
 }
 .metrics-heading {
@@ -798,7 +809,7 @@ h3 {
 .metric {
   border: 1px solid #e3ecf8;
   border-radius: 9px;
-  padding: 12px 14px;
+  padding: 9px 11px;
   background: white;
 }
 .metric dt {
@@ -809,7 +820,7 @@ h3 {
 .metric dd {
   margin: 0;
   color: var(--color-navy);
-  font-size: 1.2rem;
+  font-size: 1.05rem;
   font-weight: 750;
 }
 .metric-note {
@@ -818,7 +829,8 @@ h3 {
   font-size: 0.9rem;
 }
 .project-actions {
-  margin-top: 23px;
+  margin-top: auto;
+  padding-top: 23px;
 }
 .disclaimer {
   margin: 15px 0 0;
@@ -1134,7 +1146,10 @@ h3 {
     padding: 24px;
   }
   .project-banner {
-    min-height: 205px;
+    min-height: 165px;
+  }
+  .project-list {
+    grid-template-columns: 1fr;
   }
   .project-visual {
     padding: 20px;
